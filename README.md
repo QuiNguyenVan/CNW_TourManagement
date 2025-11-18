@@ -1,0 +1,5 @@
+--
+--Tên mấy class để chữ in hoa chữ cái đầu vd: BookingServlet.java
+--Tên mấy file jsp để chữ thường vd: home.jsp, dashboard.jsp
+--Tên biến là kiểu camelCase vd: firstName, lastName
+--
