@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+	<h2>Đây là trang category</h2>
 </body>
 </html>
