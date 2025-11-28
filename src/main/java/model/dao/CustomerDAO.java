@@ -81,4 +81,18 @@ public class CustomerDAO {
         }
         return null;
     }
+    public boolean updateCustomer(CustomerBean customer) {
+        String sql = "UPDATE Customer SET name=?, email=?, phone=? WHERE id=?";
+        try (Connection conn = DBConnection.getConnection();
+             PreparedStatement ps = conn.prepareStatement(sql)) {
+            ps.setString(1, customer.getName());
+            ps.setString(2, customer.getEmail());
+            ps.setString(3, customer.getPhone());
+            ps.setInt(4, customer.getId());
+            return ps.executeUpdate() > 0;
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return false;
+    }
 }

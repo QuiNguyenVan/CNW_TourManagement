@@ -26,10 +26,10 @@
         <a href="${pageContext.request.contextPath}/bookings" class="btn-cta" style="background-color: var(--success); font-size: 14px; padding: 10px 25px;">Quản Lý Booking</a>
     </div>
 
-    <div style="background: white; padding: 30px; border-radius: 8px; box-shadow: var(--shadow); text-align: center; border-top: 4px solid var(--secondary); transition: transform 0.3s;">
-        <h3 style="color: var(--secondary); margin-bottom: 15px;">Tài Khoản</h3>
-        <p style="color: #666; margin-bottom: 25px;">Xem thông tin hồ sơ cá nhân của bạn. (Chức năng cập nhật đang phát triển)</p>
-        <a href="${pageContext.request.contextPath}/jsp/user/customer.jsp" class="btn-cta" style="background-color: var(--secondary); font-size: 14px; padding: 10px 25px;">Xem Hồ Sơ</a>
+    <div style="background: white; padding: 30px; border-radius: 8px; box-shadow: var(--shadow); text-align: center; border-top: 4px solid var(--danger); transition: transform 0.3s;">
+        <h3 style="color: var(--danger); margin-bottom: 15px;">Tài Khoản</h3>
+        <p style="color: #666; margin-bottom: 25px;">Xem thông tin hồ sơ cá nhân của bạn.</p>
+        <a href="${pageContext.request.contextPath}/CustomerServlet?" class="btn-cta" style="background-color: var(--danger); font-size: 14px; padding: 10px 25px;">Xem Hồ Sơ</a>
     </div>
 
 </div>

@@ -22,19 +22,19 @@
 .tab-buttons {
     margin-top: 20px;
     display: flex;
-    justify-content: center; /* căn giữa */
+    justify-content: center; 
     gap: 10px;
 }
 
 .tab-buttons button {
-    padding: 6px 16px; /* đủ rộng vừa chữ */
+    padding: 6px 16px; 
     border: none;
     border-radius: 6px;
     cursor: pointer;
     background-color: #eee;
     font-size: 14px;
-    width: auto; /* không kéo full width */
-    min-width: 80px; /* nếu muốn tối thiểu */
+    width: auto;
+    min-width: 80px; 
     transition: 0.2s;
 }
 
