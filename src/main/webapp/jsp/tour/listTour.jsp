@@ -90,9 +90,9 @@
 
                 <div class="price">${tour.price} VND</div>
 
-                <div style="margin-top:5px; font-size:14px; color:#444; height:45px; overflow:hidden;">
+             <!--   <div style="margin-top:5px; font-size:14px; color:#444; height:45px; overflow:hidden;">
                     ${tour.description}
-                </div>
+                </div>  --> 
 
                 <div class="slots" 
                      style="${tour.availableSlots > 0 ? 'color: green;' : 'color: red;'}">
